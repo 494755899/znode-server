@@ -3,7 +3,7 @@ const {
   signUp,
   signIn
  } = require('../controllers/sign')
-router.prefix('/api/users')
+router.prefix('/v1/users')
 
 // router.get('/signUp', function (ctx, next) {
 //   ctx.body = 'this is a users response!'

@@ -3,7 +3,7 @@ const {
   createTopic
 } = require('../controllers/topic')
 
-router.prefix('/topics')
+router.prefix('/v1/topics')
 
 router.post('/createTopic', createTopic)
 
